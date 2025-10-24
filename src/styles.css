@@ -128,6 +128,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 8px 12px;
   border: 1px solid #4AF626;
   border-radius: 4px;
+  width: 100%;
 }
 
 .form-submit-button:hover {

@@ -28,7 +28,7 @@ function renderForm(data) {
         ).join('')}
         <br><br>
       </form>
-      
+      <button type="submit" class="form-submit-button">SUBMIT</button>
     `;
 
     const form = document.getElementById('simulationForm');
