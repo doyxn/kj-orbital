@@ -1,8 +1,16 @@
 {
-    "simulation": "orbital_behavior",
-    "id": "https://ntrs.nasa.gov/citations/19620003290",  
-    "variables" : [
-        { "label": "orbit (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 }
-    ]
+  "simulation": "orbital_behavior",
+  "id": "https://ntrs.nasa.gov/citations/19620003290",
+  "variables": [
+    { "label": "e", "name": "eccentricity of the orbit (unitless)", "type": "number", "default": 0 },
+    { "label": "i", "name": "inclination — angle between the orbital plane and equatorial plane (deg)", "type": "number", "default": 0 },
+    { "label": "N", "name": "north celestial pole (reference point)", "type": "text", "default": "" },
+    { "label": "p", "name": "perigee (point of orbit closest to Earth)", "type": "text", "default": "" },
+    { "label": "RA", "name": "right ascension — arc measured eastward along the celestial equator from the vernal equinox (deg)", "type": "number", "default": 0 },
+    { "label": "S", "name": "south celestial pole (reference point)", "type": "text", "default": "" },
+    { "label": "T", "name": "time from launch (days)", "type": "number", "default": 0 },
+    { "label": "Uₜ", "name": "Universal Time — Greenwich civil time (hours)", "type": "number", "default": 0 },
+    { "label": "σ", "name": "declination — angular distance north or south of the celestial equator (deg)", "type": "number", "default": 0 },
+    { "label": "γ", "name": "Aries (vernal equinox reference point)", "type": "text", "default": "" }
+  ]
 }

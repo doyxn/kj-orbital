@@ -1,13 +1,34 @@
 {
-    "simulation": "azimuth_angle",
-    "id": "https://ntrs.nasa.gov/citations/19980227091",  
-    "variables" : [
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 10 }
-    ]
+  "simulation": "azimuth_angle",
+  "id": "https://ntrs.nasa.gov/citations/19980227091",
+  "variables": [
+    { "label": "a",    "name": "semimajor axis of elliptic orbit (km)", "type": "number", "default": 0 },
+    { "label": "E",    "name": "eccentric anomaly (deg)", "type": "number", "default": 0 },
+    { "label": "e",    "name": "eccentricity of orbit (unitless)", "type": "number", "default": 0 },
+    { "label": "g₀",   "name": "gravitational constant at Earth's surface (m/s²)", "type": "number", "default": 9.80665 },
+    { "label": "i",    "name": "inclination angle of orbital plane (deg)", "type": "number", "default": 0 },
+    { "label": "N",    "name": "nodal longitude (longitude of ascending node) (deg)", "type": "number", "default": 0 },
+    { "label": "n",    "name": "number of completed orbital passes (count)", "type": "number", "default": 0 },
+    { "label": "O",    "name": "latitude (deg)", "type": "number", "default": 0 },
+    { "label": "P",    "name": "perigee location in orbital plane (point descriptor)", "type": "text",   "default": "" },
+    { "label": "p",    "name": "semilatus rectum of ellipse (km)", "type": "number", "default": 0 },
+    { "label": "R",    "name": "radius of Earth (km)", "type": "number", "default": 6378.0 },
+    { "label": "r",    "name": "distance of satellite from Earth's center (km)", "type": "number", "default": 0 },
+    { "label": "S",    "name": "position of satellite in orbital plane (coordinate)", "type": "text", "default": "" },
+    { "label": "T",    "name": "satellite orbital period (min)", "type": "number", "default": 0 },
+    { "label": "t(θ)", "name": "time from perigee as function of true anomaly θ (min)", "type": "number", "default": 0 },
+    { "label": "v",    "name": "satellite velocity (km/s)", "type": "number", "default": 0 },
+    { "label": "Vc",   "name": "satellite velocity for circular orbit (km/s)", "type": "number", "default": 0 },
+    { "label": "γ",    "name": "elevation angle between local horizon and velocity vector (deg, positive upwards)", "type": "number", "default": 0 },
+    { "label": "θ",    "name": "true anomaly (angle in orbital plane from perigee) (deg)", "type": "number", "default": 0 },
+    { "label": "k",    "name": "longitude measured east of Greenwich (deg) — base longitude symbol", "type": "number", "default": 0 },
+    { "label": "λ",    "name": "longitude measured east of prime meridian at Greenwich (deg)", "type": "number", "default": 0 },
+    { "label": "λ_NS", "name": "difference in longitude between north and south reference points (λ_N - λ_S) (deg)", "type": "number", "default": 0 },
+    { "label": "λ_N1", "name": "difference in longitude between nodal point and reference longitude (λ_N - λ_1) (deg)", "type": "number", "default": 0 },
+    { "label": "φ",    "name": "geocentric latitude measured north or south of equator (deg)", "type": "number", "default": 0 },
+    { "label": "ψ",    "name": "azimuth angle measured clockwise from North (deg)", "type": "number", "default": 0 },
+    { "label": "Ω",    "name": "right ascension of ascending node (rotation of orbital plane about Earth's axis) (deg)", "type": "number", "default": 0 },
+    { "label": "ω",    "name": "argument of perigee (angle between nodal point and perigee) (deg)", "type": "number", "default": 0 },
+    { "label": "ωₑ",   "name": "angular velocity of the Earth (deg/min)", "type": "number", "default": 0.25068 }
+  ]
 }

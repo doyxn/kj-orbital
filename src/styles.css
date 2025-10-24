@@ -86,8 +86,10 @@ p.section-desc {
 }
 
 #simulationForm {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+  align-items: center;
 }
 
 #form-variable-box .form-item {
@@ -110,7 +112,7 @@ p.section-desc {
   border: 1px solid #4AF626;
   border-radius: 4px;
   box-sizing: border-box;
-  width: 25%;
+  width: 50%;
   padding: 6px;
 }
 

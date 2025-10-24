@@ -1,8 +1,34 @@
 {
-    "simulation": "approximate_solutions",
-    "id": "https://ntrs.nasa.gov/citations/19640016000",  
-    "variables" : [
-        { "label": "solutions (degrees)", "name": "angle", "type": "number", "default": 0 },
-        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 }
-    ]
+  "simulation": "approximate_solutions",
+  "id": "https://ntrs.nasa.gov/citations/19640016000",
+  "variables": [
+    { "label": "A", "name": "constant used to simplify the second term of equation (16)", "type": "number", "default": 0 },
+    { "label": "B", "name": "constant used in exponential approximation of atmospheric density (ft)", "type": "number", "default": 0 },
+    { "label": "C", "name": "constant used in the development of equation (17)", "type": "number", "default": 0 },
+    { "label": "C_L", "name": "lift coefficient (dimensionless)", "type": "number", "default": 0 },
+    { "label": "C_D", "name": "drag coefficient (dimensionless)", "type": "number", "default": 0 },
+    { "label": "C_La", "name": "lift coefficient derivative with respect to angle of attack (dimensionless)", "type": "number", "default": 0 },
+    { "label": "g", "name": "acceleration due to gravity (ft/sec²)", "type": "number", "default": 32.174 },
+    { "label": "h", "name": "altitude above Earth’s surface (ft)", "type": "number", "default": 0 },
+    { "label": "Δh", "name": "difference in altitude (h_d − h) (ft)", "type": "number", "default": 0 },
+    { "label": "K₁", "name": "constant defined in equation (2)", "type": "number", "default": 0 },
+    { "label": "K₂", "name": "constant defined in equation (3)", "type": "number", "default": 0 },
+    { "label": "K₃", "name": "constant used in the development of equation (10)", "type": "number", "default": 0 },
+    { "label": "L/D", "name": "lift-to-drag ratio (dimensionless)", "type": "number", "default": 0 },
+    { "label": "m", "name": "mass of vehicle (slugs)", "type": "number", "default": 0 },
+    { "label": "n", "name": "integer (iteration index or step count)", "type": "number", "default": 0 },
+    { "label": "r", "name": "radius of Earth (ft)", "type": "number", "default": 2.09e7 },
+    { "label": "S", "name": "surface area of vehicle (ft²)", "type": "number", "default": 0 },
+    { "label": "t", "name": "time (sec)", "type": "number", "default": 0 },
+    { "label": "V", "name": "velocity of vehicle (ft/sec)", "type": "number", "default": 0 },
+    { "label": "V₁", "name": "constant mean value of velocity (ft/sec)", "type": "number", "default": 0 },
+    { "label": "W₁", "name": "intermediate variable used in equation (17)", "type": "number", "default": 0 },
+    { "label": "W₂", "name": "intermediate variable used in equation (17)", "type": "number", "default": 0 },
+    { "label": "x", "name": "intermediate variable used in equation (17)", "type": "number", "default": 0 },
+    { "label": "W", "name": "weight of vehicle (lb)", "type": "number", "default": 0 },
+    { "label": "y", "name": "e^(−h/B), exponential term used in development of equation (17)", "type": "number", "default": 0 },
+    { "label": "γ", "name": "flight-path angle (deg or radians)", "type": "number", "default": 0 },
+    { "label": "γ₁", "name": "first approximation of flight-path angle (deg or radians)", "type": "number", "default": 0 },
+    { "label": "ρ_c", "name": "constant used in exponential approximation of atmospheric density (slugs/ft³)", "type": "number", "default": 0 }
+  ]
 }
