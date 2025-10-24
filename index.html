@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' "
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>KJ Orbital</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <h1>kjorbital</h1>
+    <div class="section-container">
+      <div class="section">
+        <p>Azimuth Angle</p>
+        <button class="section-button" id="azimuth_angle">LAUNCH</button>
+        <p class="section-desc">Mathematical expressions for relating satellite position with the rotating Earth's longitude and latitude.</p>
+      </div>
+      <div class="section">
+        <p>Orbital Behavior</p>
+        <button class="section-button" id="orbital_behavior">LAUNCH</button>
+        <p class="section-desc">Orbital behavior of Echo I satellite & its rocket casing during its first 500 days.</p>
+      </div>
+      <div class="section">
+        <p>Approximate Solutions</p>
+        <button class="section-button" id="approximate_solutions">LAUNCH</button>
+        <p class="section-desc">Approximate solutions for flight path angle of reentry vehicle in upper atmosphere.</p>
+      </div>
+    </div>
+    <div class="form-variable-container">
+      <h3>USER VARIABLES</h3>
+      <div id="form-variable-box"></div>
+      <button type="submit" class="form-submit-button">SUBMIT</button>
+    </div>
+  </body>
+  <script type="module" src="./electron/renderer.js"></script>
+</html>

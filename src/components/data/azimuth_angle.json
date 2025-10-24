@@ -1,0 +1,13 @@
+{
+    "simulation": "azimuth_angle",
+    "id": "https://ntrs.nasa.gov/citations/19980227091",  
+    "variables" : [
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 10 }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "simulation": "approximate_solutions",
+    "id": "https://ntrs.nasa.gov/citations/19640016000",  
+    "variables" : [
+        { "label": "solutions (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 }
+    ]
+}

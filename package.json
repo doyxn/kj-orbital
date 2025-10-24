@@ -1,0 +1,15 @@
+{
+  "name": "kj-orbital",
+  "version": "1.0.0",
+  "description": "Electron application of Katherine Johnson's NACA technical reports.",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adedoyin Famuyiwa",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.3.1"
+  }
+}

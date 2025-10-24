@@ -1,0 +1,8 @@
+{
+    "simulation": "orbital_behavior",
+    "id": "https://ntrs.nasa.gov/citations/19620003290",  
+    "variables" : [
+        { "label": "orbit (degrees)", "name": "angle", "type": "number", "default": 0 },
+        { "label": "Angle (degrees)", "name": "angle", "type": "number", "default": 0 }
+    ]
+}
