@@ -1,7 +1,8 @@
-
-const buttons = document.querySelectorAll('button');
+//Variable Form rednering and submission
+const buttons = Array.from(document.getElementsByClassName('section-button'));
 const formContainer = document.getElementById('form-variable-box');
 
+// Event listeners for simulation section buttons
 buttons.forEach((btn) => {
     btn.addEventListener('click', async () => {
         const simulation = btn.id; // section button id corresponds to simulation
@@ -14,6 +15,7 @@ buttons.forEach((btn) => {
     });
 });
 
+// Function to render the variables form based on selected simulation
 function renderForm(data) {
     const { simulation, variables } = data;
     formContainer.innerHTML = `
@@ -44,12 +46,13 @@ function renderForm(data) {
     })
 }
 
-// let ipcRenderer = require('electron').ipcRenderer;
-// ipcRenderer.send('submitForm', formData);
+// Event listener for form submission button 
+const submitButton = document.querySelector('.form-submit-button');
+submitButton.addEventListener('click', () => {
+    renderSimulation();
+});
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const form = document.getElementById('section-button');
-//     section-button.addEventListener('click', (event) => {
-//         //do something
-//     });
-// });
+// Function to render simulation graphics
+function renderSimulation() {
+  
+}

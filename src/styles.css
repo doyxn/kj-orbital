@@ -136,3 +136,14 @@ input[type="number"]::-webkit-inner-spin-button {
   color: black;
   cursor: pointer;
 }
+
+/* Globe and Orbit Rendering Styles */
+ #globe-container { 
+  width: 100vw; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+ canvas { display: block; }
