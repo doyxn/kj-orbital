@@ -49,10 +49,13 @@ function renderForm(data) {
 // Event listener for form submission button 
 const submitButton = document.querySelector('.form-submit-button');
 submitButton.addEventListener('click', () => {
-    renderSimulation();
+    const form = document.getElementById('simulationForm');
+    const simulationType = form ? form.dataset.simulation : null;
+    renderSimulation(simulationType);
 });
 
 // Function to render simulation graphics
-function renderSimulation() {
-  
+function renderSimulation(simulationType) {
+
+  console.log
 }
