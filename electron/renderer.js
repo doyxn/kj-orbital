@@ -47,12 +47,12 @@ function renderForm(data) {
 }
 
 // Event listener for form submission button 
-const submitButton = document.querySelector('.form-submit-button');
-submitButton.addEventListener('click', () => {
-    const form = document.getElementById('simulationForm');
-    const simulationType = form ? form.dataset.simulation : null;
-    renderSimulation(simulationType);
-});
+// const submitButton = document.querySelector('.form-submit-button');
+// submitButton.addEventListener('click', () => {
+//     const form = document.getElementById('simulationForm');
+//     const simulationType = form ? form.dataset.simulation : null;
+//     renderSimulation(simulationType);
+// });
 
 // Function to render simulation graphics
 function renderSimulation(simulationType) {
