@@ -147,8 +147,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
   #globe-canvas { 
-    width: 750px;
-    height: 750px; 
+    width: 80%;
+    height: 80%; 
+    max-width: 90vh;
+    max-height: 90vw;
     display: block;
     border: 1px solid #fff;
   }
